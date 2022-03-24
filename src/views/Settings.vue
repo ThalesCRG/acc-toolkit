@@ -230,7 +230,7 @@ platforms where TCP sockets act differently</b-form-select-option
       />
       <div class="d-flex flex-row justify-content-center mb-1">
         <b-button variant="secondary" @click="onNew">
-          New Rules
+          New settings
         </b-button>
       </div>
       <div
