@@ -40,6 +40,7 @@
               <b-form-select-option value="GT3">GT3</b-form-select-option>
               <b-form-select-option value="GT4">GT4</b-form-select-option>
               <b-form-select-option value="GTC">GTC</b-form-select-option>
+              <b-form-select-option value="TCX">TCX</b-form-select-option>
               </b-form-select
             ></b-td>
             <b-td
