@@ -40,6 +40,7 @@
               <b-form-select-option value="GT3">GT3</b-form-select-option>
               <b-form-select-option value="GT4">GT4</b-form-select-option>
               <b-form-select-option value="GTC">GTC</b-form-select-option>
+              <b-form-select-option value="TCX">TCX</b-form-select-option>
               </b-form-select
             ></b-td>
             <b-td
@@ -230,7 +231,7 @@ platforms where TCP sockets act differently</b-form-select-option
       />
       <div class="d-flex flex-row justify-content-center mb-1">
         <b-button variant="secondary" @click="onNew">
-          New Rules
+          New settings
         </b-button>
       </div>
       <div

@@ -89,6 +89,41 @@
               ></b-form-input
             ></b-td>
           </b-tr>
+          <b-tr>
+            <b-th>Post Qualy Seconds</b-th>
+            <b-th>Post Race Seconds</b-th>
+            <b-th>Custom meta data</b-th>
+          </b-tr>
+          <b-tr>
+            <b-td>
+              <b-form-input
+                number
+                type="number"
+                @change="onUpdate()"
+                v-model="file.postQualySeconds"
+                min="0"
+                vertical
+              ></b-form-input>
+            </b-td>
+            <b-td>
+              <b-form-input
+                number
+                type="number"
+                @change="onUpdate()"
+                v-model="file.postRaceSeconds"
+                min="0"
+                vertical
+              ></b-form-input>
+            </b-td>
+            <b-td>
+              <b-form-textarea
+                @change="onUpdate()"
+                v-model="file.metaData"
+                id="textarea-small"
+                size="sm"
+              ></b-form-textarea>
+            </b-td>
+          </b-tr>
         </b-table-simple>
       </b-container>
       <div v-if="file" class="d-flex flex-column">
